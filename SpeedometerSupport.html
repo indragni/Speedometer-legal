@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support — Speedometer</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --text: #1a1a1a;
+      --muted: #444;
+      --bg: #fafafa;
+      --border: #e0e0e0;
+      --accent: #0d6efd;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #f2f2f2;
+        --muted: #b0b0b0;
+        --bg: #121212;
+        --border: #333;
+        --accent: #6ea8fe;
+      }
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.55;
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 1.25rem 1rem 3rem;
+      color: var(--text);
+      background: var(--bg);
+    }
+    h1 { font-size: 1.5rem; margin-top: 0; }
+    h2 { font-size: 1.1rem; margin-top: 1.75rem; }
+    p, li { color: var(--muted); }
+    a { color: var(--accent); }
+    .meta { font-size: 0.9rem; color: var(--muted); margin-bottom: 1.5rem; }
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.1rem;
+      margin-top: 1rem;
+      background: color-mix(in srgb, var(--bg) 92%, var(--text) 8%);
+    }
+    ul { padding-left: 1.25rem; }
+  </style>
+</head>
+<body>
+  <h1>Support</h1>
+  <p class="meta"><strong>Speedometer</strong><br>Indragni Solutions</p>
+
+  <p>Speedometer shows current and max speed using GPS and on-device sensors where available. Allow <strong>Location</strong> when prompted (typically “While Using the App”) for accurate speed.</p>
+
+  <div class="card">
+    <p style="margin:0;"><strong>Need more help?</strong> Contact options are on <a href="https://indragnisolutions.com">indragnisolutions.com</a>. Include <strong>iOS version</strong>, device model, and whether the issue occurs indoors, in a vehicle, or walking.</p>
+  </div>
+
+  <h2>Safety and legal use</h2>
+  <ul>
+    <li><strong>Do not</strong> interact with the device while operating a vehicle where prohibited by law.</li>
+    <li>Mount the phone safely if you use it in a car; follow local hands-free rules.</li>
+    <li>GPS speed is approximate; never use the App as the sole instrument for safety-critical decisions.</li>
+  </ul>
+
+  <h2>Speed shows zero or jumps</h2>
+  <ul>
+    <li>Ensure <strong>Location Services</strong> are on for the App (Settings → Privacy &amp; Security → Location Services).</li>
+    <li>Move to an area with a clear view of the sky; tall buildings and tunnels weaken GPS.</li>
+    <li>Wait a few seconds after launch for a GPS fix; first lock can be slow indoors.</li>
+  </ul>
+
+  <h2>Pro purchase and Restore</h2>
+  <ul>
+    <li>Pro is a <strong>one-time</strong> non-consumable purchase through Apple where offered.</li>
+    <li>Use <strong>Restore Purchases</strong> with the same <strong>Apple ID</strong> if Pro features are missing after reinstall.</li>
+  </ul>
+
+  <h2>Units</h2>
+  <p>Switch mph, km/h, or knots in the App’s settings if available. Speed limits and signage on the road always take precedence over any in-app display.</p>
+
+  <h2>Privacy</h2>
+  <p>See the <a href="SpeedometerPrivacy.html">Privacy Policy</a> for Speedometer, including location use and ads in the free version.</p>
+</body>
+</html>
